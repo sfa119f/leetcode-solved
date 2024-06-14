@@ -3,37 +3,30 @@
  * @return {number}
  */
 var minIncrementForUnique = function(nums) {
-  nums = mergeSort(nums)
+  const maxVal = Math.max(...nums)
   
-  let nextUnique = 0
-  let count = 0
-  for (let num of nums) {
-    let maxVal = Math.max(nextUnique, num)
-    count += maxVal - num
-    nextUnique = maxVal + 1
+  const arr = []
+  for (let i = 0; i < maxVal + 1; i++) {
+    arr.push(0)
   }
+  
+  for (let num of nums) {
+    arr[num] += 1
+  }
+  
+  let count = 0
+  for (let i = 0; i < maxVal; i++) {
+    if (arr[i] == 1 || arr[i] == 0) continue
+    
+    arr[i + 1] += arr[i] - 1
+    count += arr[i] - 1
+  }
+  
+  while (arr[maxVal] > 1) {
+    arr[maxVal]--
+    count += arr[maxVal]
+  } 
+  
   
   return count
 };
-
-function merge(left, right) {
-    let arr = [];
-    while (left.length && right.length) {
-        if (left[0] < right[0]) {
-            arr.push(left.shift());
-        } else {
-            arr.push(right.shift());
-        }
-    }
-    return [...arr, ...left, ...right];
-}
-
-function mergeSort(arr) {
-    if (arr.length <= 1) {
-        return arr;
-    }
-    const middle = Math.floor(arr.length / 2);
-    const left = arr.slice(0, middle);
-    const right = arr.slice(middle);
-    return merge(mergeSort(left), mergeSort(right));
-}
