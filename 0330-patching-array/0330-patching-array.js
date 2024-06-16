@@ -12,7 +12,7 @@ var minPatches = function(nums, n) {
       temp += nums[idx]
       idx++
     } else {
-      temp += temp
+      temp *= 2
       added++
     }
   }
