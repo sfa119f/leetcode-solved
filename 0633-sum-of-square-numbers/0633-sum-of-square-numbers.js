@@ -3,13 +3,19 @@
  * @return {boolean}
  */
 var judgeSquareSum = function(c) {
-  const sqr = Math.sqrt(c)
-  if (sqr % 1 === 0) return true
-  
-  let i = 1
-  while (i < sqr) {
-    if (Math.sqrt(c - (i * i)) % 1 === 0) return true
-    i++
+  // solution using:  
+  // https://en.wikipedia.org/wiki/Sum_of_two_squares_theorem
+  for (let i = 2; i * i <= c; i++) {
+    let count = 0
+    if (c % i == 0) {
+      while (c % i == 0) {
+        count++
+        c /= i
+      }
+      if (i % 4 == 3 && count % 2 != 0) {
+        return false
+      }
+    }
   }
-  return false
+  return c % 4 != 3
 };
