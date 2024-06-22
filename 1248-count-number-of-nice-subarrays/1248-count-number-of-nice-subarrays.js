@@ -5,22 +5,23 @@
  */
 var numberOfSubarrays = function(nums, k) {
   let res = 0
-  let oddIdx = []
-  let lastPop = -1
-  let initialGap = -1
+  let initialGap = 0
+  let qSize = 0
+  let start = 0
   
-  for (let i = 0; i < nums.length; i++) {
-    if (nums[i] % 2 == 1) {
-      oddIdx.push(i)
+  for (let num of nums) {
+    if (num % 2 == 1) {
+      qSize++
     }
-    
-    if (oddIdx.length > k) {
-      lastPop = oddIdx.shift()
+    if (qSize === k) {
+      initialGap = 0
+      while (qSize === k) {
+        qSize -= nums[start] % 2
+        initialGap++
+        start++
+      }
     }
-    if (oddIdx.length === k) {
-      initialGap = oddIdx[0] - lastPop
-      res += initialGap
-    } 
+    res += initialGap
   }
   
   return res
