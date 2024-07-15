@@ -12,34 +12,29 @@
  */
 var createBinaryTree = function(descriptions) {
   const map = {}
-  const headNodes = []
   const childNodes = []
   for (const desc of descriptions) {
+    if (!(desc[0] in map)) {
+      map[desc[0]] = new TreeNode(desc[0])
+    }
+    
+    if (!(desc[1] in map)) {
+      map[desc[1]] = new TreeNode(desc[1])
+    }
+    
     if (desc[2]) {
-      map[desc[0]] = [desc[1], map[desc[0]] ? map[desc[0]][1] : null]
+      map[desc[0]].left = map[desc[1]]
     } else {
-      map[desc[0]] = [map[desc[0]] ? map[desc[0]][0] : null, desc[1]] 
+      map[desc[0]].right = map[desc[1]]
     }
-    if (headNodes.indexOf(desc[0]) == -1 && childNodes.indexOf(desc[0]) == -1) {
-      headNodes.push(desc[0])
-    }
-    if (childNodes.indexOf(desc[1]) == -1) {
-      childNodes.push(desc[1])
-    }
-    if (headNodes.indexOf(desc[1]) > -1) {
-      headNodes.splice(headNodes.indexOf(desc[1]), 1)
-    }
+    
+    childNodes.push(desc[1])
   }
   
-  const createNode = (val) => {
-    if (!val) return null
-    if (val in map) {
-      const left = createNode(map[val][0])
-      const right = createNode(map[val][1])
-      return new TreeNode(val, left, right)
+  for (const node in map) {
+    if (!(childNodes.includes(Number(node)))) {
+      return map[node]
     }
-    return new TreeNode(val, null, null)
   }
-
-  return createNode(headNodes[0])
+  return null
 };
