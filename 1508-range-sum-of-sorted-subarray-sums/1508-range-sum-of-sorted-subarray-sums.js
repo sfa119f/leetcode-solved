@@ -20,7 +20,7 @@ var rangeSum = function(nums, n, left, right) {
   
   let res = 0
   for (let i = left - 1; i < right; i++) {
-    res = (res + sumNums[i]) % (Math.pow(10, 9) + 7)
+    res = (res + sumNums[i]) % 1000000007
   }
   return res
 };
