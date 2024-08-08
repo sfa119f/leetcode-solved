@@ -6,69 +6,26 @@
  * @return {number[][]}
  */
 var spiralMatrixIII = function(rows, cols, rStart, cStart) {
-  const totalCell = rows * cols
-  let cellVisited = 0
-  const result = []
-  
-  const toUp = (x, y, n) => {
-    if (cellVisited >= totalCell) {
-      return 
-    }
-    for (let i = 0; i < n; i++) {
-      x--
-      if (x >= 0 && x < rows && y >= 0 && y < cols) {
-        result.push([x, y])    
-        cellVisited++
+  const directions = [[0, 1], [1, 0], [0, -1], [-1, 0]] // East, South, West, North
+  const result = [[rStart, cStart]]
+  let steps = 0, d = 0
+
+  while (result.length < rows * cols) {
+      if (d % 2 === 0) steps++
+
+      for (let i = 0; i < steps; i++) {
+          rStart += directions[d][0];
+          cStart += directions[d][1];
+
+          if (rStart >= 0 && rStart < rows && cStart >= 0 && cStart < cols) {
+              result.push([rStart, cStart]);
+          }
+
+          if (result.length === rows * cols) return result
       }
-    }
-    toRight(x, y, n + 1)
+
+      d = (d + 1) % 4
   }
-  
-  const toLeft = (x, y, n) => {
-    if (cellVisited >= totalCell) {
-      return 
-    }
-    for (let i = 0; i < n; i++) {
-      y--
-      if (x >= 0 && x < rows && y >= 0 && y < cols) {
-        result.push([x, y])    
-        cellVisited++
-      }
-    }
-    toUp(x, y, n)
-  }
-  
-  const toDown = (x, y, n) => {
-    if (cellVisited >= totalCell) {
-      return 
-    }
-    for (let i = 0; i < n; i++) {
-      x++
-      if (x >= 0 && x < rows && y >= 0 && y < cols) {
-        result.push([x, y])    
-        cellVisited++
-      }
-    }
-    toLeft(x, y, n + 1)
-  }
-  
-  const toRight = (x, y, n) => {
-    if (cellVisited >= totalCell) {
-      return 
-    }
-    for (let i = 0; i < n; i++) {
-      y++
-      if (x >= 0 && x < rows && y >= 0 && y < cols) {
-        result.push([x, y])    
-        cellVisited++
-      }
-    }
-    toDown(x, y, n)
-  }
-  
-  result.push([rStart, cStart])
-  cellVisited++
-  toRight(rStart, cStart, 1)
-  
+
   return result
 };
