@@ -3,10 +3,10 @@
  * @return {number}
  */
 var findComplement = function(num) {
-  let res = 1
-  while (res < num) {
-    res *= 2
-  }
-  if (res == num) return res - 1
-  return res - num - 1
+  if (num === 0) return 1;
+
+  const mask = (1 << num.toString(2).length) - 1;
+
+  return num ^ mask;
+
 };
