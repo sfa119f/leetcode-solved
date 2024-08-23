@@ -4,44 +4,23 @@
  */
 var fractionAddition = function(expression) {
   const GCD = (a ,b) => b ? GCD(b, a % b) : a
-  const LCM = (a, b) => (a * b) / GCD(a, b)
   
-  const numerator = []
-  const denomintor = []
-  
-  let numStr = ""
-  let isNumerator = true
-  for (let i = 0; i < expression.length; i++) {
-    if (expression[i] == '+' && !isNaN(numStr) && numStr.length != 0) {
-      if (isNumerator) numerator.push(Number(numStr))
-      else denomintor.push(Number(numStr))
-      numStr = ""
-      isNumerator = !isNumerator
-    } else if (expression[i] == '-' && !isNaN(numStr) && numStr.length != 0) {
-      if (isNumerator) numerator.push(Number(numStr))
-      else denomintor.push(Number(numStr))
-      numStr = "-"
-      isNumerator = !isNumerator
-    } else if (expression[i] == '/' && !isNaN(numStr) && numStr.length != 0) {
-      if (isNumerator) numerator.push(Number(numStr))
-      else denomintor.push(Number(numStr))
-      numStr = ""
-      isNumerator = !isNumerator
-    } else {
-      numStr += expression[i]
-    }
+  let numerator = 0, denominator = 1;
+
+  const regex = /([+-]?\d+)\/(\d+)/g
+  let match
+
+  while ((match = regex.exec(expression)) !== null) {
+    let num = parseInt(match[1])
+    let den = parseInt(match[2])
+
+    numerator = numerator * den + num * denominator
+    denominator *= den
+
+    let gcdVal = GCD(Math.abs(numerator), denominator)
+    numerator /= gcdVal
+    denominator /= gcdVal
   }
-  if (!isNaN(numStr) && numStr.length != 0) {
-    if (isNumerator) numerator.push(Number(numStr))
-    else denomintor.push(Number(numStr))
-    numStr = ""
-  }
-  
-  const resDenomintor = denomintor.reduce((res, v) => LCM(res, v), 1)
-  const resNumerator = numerator.reduce((res, v, idx) => 
-    res + (v * (resDenomintor / denomintor[idx]))
-  , 0)
-  const factor = Math.abs(GCD(resNumerator, resDenomintor))
-  
-  return (resNumerator / factor) + '/' + (resDenomintor / factor) 
+
+  return numerator + "/" + denominator
 };
