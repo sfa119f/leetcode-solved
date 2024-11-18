@@ -6,26 +6,17 @@
 var decrypt = function(code, k) {
   const n = code.length
   const absK = Math.abs(k)
+  const res = Array(n).fill(0)
   
-  if (k == 0) return Array(n).fill(0)
+  if (k == 0) return res
   
-  const sum = [0]
   for (let i = 0; i < absK; i++) {
-    sum[0] += code[i]
+    res[0] += code[i + 1]
   }
-  for (let i = 0; i < n - 1; i++) {
-    sum.push(sum[i] - code[i] + code[(absK + i) % n] )
+  for (let i = 1; i < n; i++) {
+    res[i] = res[i - 1] - code[i] + code[(absK + i) % n]
   }
   
-  const res = []
-  if (k > 0){
-    for (let i = 0; i < n; i++) {
-      res.push(sum[(i + 1) % n])
-    }
-  } else {
-    for (let i = 0; i < n; i++) {
-      res.push(sum[(i + k + n) % n])
-    }
-  }
-  return res
+  if (k > 0) return res
+  return res.concat(res).slice((k - 1 + n) % n, n + ((k - 1 + n) % n))
 };
