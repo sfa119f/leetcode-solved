@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sfa119f/leetcode-solved/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/sfa119f/leetcode-solved/tree/master/2465-shifting-letters-ii) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sfa119f/leetcode-solved/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sfa119f/leetcode-solved/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sfa119f/leetcode-solved/tree/master/3309-count-prefix-and-suffix-pairs-i) |
@@ -93,10 +94,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Depth-First Search
 |  |
 | ------- |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/1093-recover-a-tree-from-preorder-traversal) |
+| [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Tree
 |  |
 | ------- |
@@ -106,4 +109,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
+## Breadth-First Search
+|  |
+| ------- |
+| [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
+## Graph
+|  |
+| ------- |
+| [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 <!---LeetCode Topics End-->
