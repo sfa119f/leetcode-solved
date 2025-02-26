@@ -10,6 +10,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/sfa119f/leetcode-solved/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/sfa119f/leetcode-solved/tree/master/1524-string-matching-in-an-array) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sfa119f/leetcode-solved/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/sfa119f/leetcode-solved/tree/master/2465-shifting-letters-ii) |
@@ -21,6 +22,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sfa119f/leetcode-solved/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 ## String
 |  |
 | ------- |
