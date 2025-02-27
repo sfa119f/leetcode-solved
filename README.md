@@ -11,6 +11,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/sfa119f/leetcode-solved/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/sfa119f/leetcode-solved/tree/master/1524-string-matching-in-an-array) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sfa119f/leetcode-solved/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -24,6 +25,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sfa119f/leetcode-solved/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sfa119f/leetcode-solved/tree/master/0905-length-of-longest-fibonacci-subsequence) |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 ## String
 |  |
@@ -43,6 +45,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Prefix Sum
 |  |
 | ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sfa119f/leetcode-solved/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2465-shifting-letters-ii](https://github.com/sfa119f/leetcode-solved/tree/master/2465-shifting-letters-ii) |
@@ -122,4 +125,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
+## Math
+|  |
+| ------- |
+| [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 <!---LeetCode Topics End-->
