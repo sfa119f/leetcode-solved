@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sfa119f/leetcode-solved/tree/master/2292-counting-words-with-a-given-prefix) |
 | [2465-shifting-letters-ii](https://github.com/sfa119f/leetcode-solved/tree/master/2465-shifting-letters-ii) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sfa119f/leetcode-solved/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sfa119f/leetcode-solved/tree/master/2691-count-vowel-strings-in-ranges) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sfa119f/leetcode-solved/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
@@ -64,6 +65,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sfa119f/leetcode-solved/tree/master/2059-unique-length-3-palindromic-subsequences) |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sfa119f/leetcode-solved/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sfa119f/leetcode-solved/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 ## String Matching
 |  |
@@ -129,4 +131,8 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+## Brainteaser
+|  |
+| ------- |
+| [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sfa119f/leetcode-solved/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 <!---LeetCode Topics End-->
