@@ -132,6 +132,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
 | [1642-water-bottles](https://github.com/sfa119f/leetcode-solved/tree/master/1642-water-bottles) |
+| [3336-water-bottles-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3336-water-bottles-ii) |
 ## Brainteaser
 |  |
 | ------- |
@@ -140,4 +141,5 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1642-water-bottles](https://github.com/sfa119f/leetcode-solved/tree/master/1642-water-bottles) |
+| [3336-water-bottles-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3336-water-bottles-ii) |
 <!---LeetCode Topics End-->
