@@ -7,6 +7,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sfa119f/leetcode-solved/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sfa119f/leetcode-solved/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [0925-construct-binary-tree-from-preorder-and-postorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/0925-construct-binary-tree-from-preorder-and-postorder-traversal) |
 | [0952-word-subsets](https://github.com/sfa119f/leetcode-solved/tree/master/0952-word-subsets) |
@@ -108,6 +109,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Depth-First Search
 |  |
 | ------- |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Binary Tree
@@ -122,6 +124,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 ## Breadth-First Search
 |  |
 | ------- |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
 ## Graph
 |  |
@@ -142,4 +145,20 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [1642-water-bottles](https://github.com/sfa119f/leetcode-solved/tree/master/1642-water-bottles) |
 | [3336-water-bottles-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3336-water-bottles-ii) |
+## Binary Search
+|  |
+| ------- |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
+## Union Find
+|  |
+| ------- |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
+## Heap (Priority Queue)
+|  |
+| ------- |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
+## Matrix
+|  |
+| ------- |
+| [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
 <!---LeetCode Topics End-->
