@@ -16,6 +16,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sfa119f/leetcode-solved/tree/master/2292-counting-words-with-a-given-prefix) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/sfa119f/leetcode-solved/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [2465-shifting-letters-ii](https://github.com/sfa119f/leetcode-solved/tree/master/2465-shifting-letters-ii) |
 | [2503-longest-subarray-with-maximum-bitwise-and](https://github.com/sfa119f/leetcode-solved/tree/master/2503-longest-subarray-with-maximum-bitwise-and) |
 | [2564-most-profitable-path-in-a-tree](https://github.com/sfa119f/leetcode-solved/tree/master/2564-most-profitable-path-in-a-tree) |
@@ -149,6 +150,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/sfa119f/leetcode-solved/tree/master/2392-successful-pairs-of-spells-and-potions) |
 ## Union Find
 |  |
 | ------- |
@@ -161,4 +163,12 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
+## Two Pointers
+|  |
+| ------- |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/sfa119f/leetcode-solved/tree/master/2392-successful-pairs-of-spells-and-potions) |
+## Sorting
+|  |
+| ------- |
+| [2392-successful-pairs-of-spells-and-potions](https://github.com/sfa119f/leetcode-solved/tree/master/2392-successful-pairs-of-spells-and-potions) |
 <!---LeetCode Topics End-->
