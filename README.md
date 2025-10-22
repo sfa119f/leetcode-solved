@@ -24,6 +24,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2766-find-the-prefix-common-array-of-two-arrays](https://github.com/sfa119f/leetcode-solved/tree/master/2766-find-the-prefix-common-array-of-two-arrays) |
 | [3309-count-prefix-and-suffix-pairs-i](https://github.com/sfa119f/leetcode-solved/tree/master/3309-count-prefix-and-suffix-pairs-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sfa119f/leetcode-solved/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/sfa119f/leetcode-solved/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Dynamic Programming
 |  |
@@ -56,6 +57,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [2465-shifting-letters-ii](https://github.com/sfa119f/leetcode-solved/tree/master/2465-shifting-letters-ii) |
 | [2691-count-vowel-strings-in-ranges](https://github.com/sfa119f/leetcode-solved/tree/master/2691-count-vowel-strings-in-ranges) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sfa119f/leetcode-solved/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/sfa119f/leetcode-solved/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Hash Table
 |  |
@@ -157,6 +159,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0794-swim-in-rising-water](https://github.com/sfa119f/leetcode-solved/tree/master/0794-swim-in-rising-water) |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/sfa119f/leetcode-solved/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sfa119f/leetcode-solved/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Union Find
 |  |
 | ------- |
@@ -178,8 +181,10 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | ------- |
 | [2392-successful-pairs-of-spells-and-potions](https://github.com/sfa119f/leetcode-solved/tree/master/2392-successful-pairs-of-spells-and-potions) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sfa119f/leetcode-solved/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 ## Sliding Window
 |  |
 | ------- |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/sfa119f/leetcode-solved/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
+| [3640-maximum-frequency-of-an-element-after-performing-operations-ii](https://github.com/sfa119f/leetcode-solved/tree/master/3640-maximum-frequency-of-an-element-after-performing-operations-ii) |
 <!---LeetCode Topics End-->
