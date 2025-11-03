@@ -13,6 +13,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0952-word-subsets](https://github.com/sfa119f/leetcode-solved/tree/master/0952-word-subsets) |
 | [1524-string-matching-in-an-array](https://github.com/sfa119f/leetcode-solved/tree/master/1524-string-matching-in-an-array) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/sfa119f/leetcode-solved/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2292-counting-words-with-a-given-prefix](https://github.com/sfa119f/leetcode-solved/tree/master/2292-counting-words-with-a-given-prefix) |
@@ -32,6 +33,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [0689-maximum-sum-of-3-non-overlapping-subarrays](https://github.com/sfa119f/leetcode-solved/tree/master/0689-maximum-sum-of-3-non-overlapping-subarrays) |
 | [0905-length-of-longest-fibonacci-subsequence](https://github.com/sfa119f/leetcode-solved/tree/master/0905-length-of-longest-fibonacci-subsequence) |
 | [1631-number-of-sub-arrays-with-odd-sum](https://github.com/sfa119f/leetcode-solved/tree/master/1631-number-of-sub-arrays-with-odd-sum) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/sfa119f/leetcode-solved/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/sfa119f/leetcode-solved/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 ## String
 |  |
@@ -40,6 +42,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 | [1093-recover-a-tree-from-preorder-traversal](https://github.com/sfa119f/leetcode-solved/tree/master/1093-recover-a-tree-from-preorder-traversal) |
 | [1502-construct-k-palindrome-strings](https://github.com/sfa119f/leetcode-solved/tree/master/1502-construct-k-palindrome-strings) |
 | [1524-string-matching-in-an-array](https://github.com/sfa119f/leetcode-solved/tree/master/1524-string-matching-in-an-array) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/sfa119f/leetcode-solved/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/sfa119f/leetcode-solved/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2059-unique-length-3-palindromic-subsequences](https://github.com/sfa119f/leetcode-solved/tree/master/2059-unique-length-3-palindromic-subsequences) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/sfa119f/leetcode-solved/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
@@ -98,6 +101,7 @@ Collection of LeetCode questions to ace the coding interview! - Created using [L
 |  |
 | ------- |
 | [1502-construct-k-palindrome-strings](https://github.com/sfa119f/leetcode-solved/tree/master/1502-construct-k-palindrome-strings) |
+| [1700-minimum-time-to-make-rope-colorful](https://github.com/sfa119f/leetcode-solved/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [2221-check-if-a-parentheses-string-can-be-valid](https://github.com/sfa119f/leetcode-solved/tree/master/2221-check-if-a-parentheses-string-can-be-valid) |
 ## Counting
 |  |
